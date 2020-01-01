@@ -1,17 +1,17 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "omniauth/apple/version"
+require "omniauth/apple/sau226/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "omniauth-apple"
-  spec.version       = Omniauth::Apple::VERSION
-  spec.authors       = ["nhosoya", "Fabian Jäger"]
+  spec.name          = "omniauth-apple-sau226"
+  spec.version       = Omniauth::Apple::Sau226::VERSION
+  spec.authors       = ["nhosoya", "Fabian Jäger", "sau226"]
   spec.email         = ["hnhnnhnh@gmail.com", "fabian@mailbutler.io"]
 
-  spec.summary       = %q{OmniAuth strategy for Sign In with Apple}
+  spec.summary       = %q{sau226's custom build of omniauth-apple}
   spec.description   = %q{OmniAuth strategy for Sign In with Apple}
-  spec.homepage      = "https://github.com/nhosoya/omniauth-apple"
+  spec.homepage      = "https://github.com/sau226dev/omniauth-apple"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
